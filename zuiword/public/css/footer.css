@@ -1,0 +1,132 @@
+@charset "utf-8";
+
+.zw-footer{
+	height: 485px;
+	width: 100%;
+}
+.footer-top{
+	height: 220px;
+	width: 100%;
+	background: #f5f5f5;
+}
+.footer-bottom{
+	height: 265px;
+	width: 100%;
+	color: #c0c0c0;
+	background: #333333;
+}
+.footer-bottom-n,.footer-top-n{
+	width: 1160px;
+	margin: 0 auto;
+}
+.footer-top-n ul:first-of-type{
+	overflow: hidden;
+	font-size: 17px;	
+}
+.footer-top-n ul:first-of-type li{
+	float: left;
+	height: 77px;
+	line-height: 77px;
+	padding: 0 30px;
+}
+.footer-top-n ul:first-of-type li a{
+	color: #575757;
+}
+.footer-top-n ul:last-of-type{
+	height: 143px;
+	
+}
+.footer-top-n ul:last-of-type li{
+	float: left;
+	width: 333px;
+	font-size: 12px;
+	color: #959595;
+}
+.footer-top-n ul:last-of-type li:nth-of-type(2){
+	margin: 0 60px;
+}
+.footer-top-n ul:last-of-type li h3{
+	color: #323232;
+	font-size: 15px;
+	margin-bottom: 7px;
+}
+.footer-top-n ul:last-of-type li img{
+	display: block;
+	float: left;
+	margin-right: 20px;
+}
+
+.ftop{
+	height: 110px;
+	padding-top: 50px;
+}
+.ftop>div{
+	width: 185px;
+	height: 110px;
+	float: left;
+	background: url(../img/foot-logo.png) no-repeat;
+}
+.ftop>p{
+	width: 540px;
+	height: 110px;
+	float: left;
+	margin: 0 90px 0 24px;
+	
+}
+.ftop>ul{
+	width: 315px;
+	height: 110px;
+	float: left;
+	
+}
+.ftop>ul li{
+	float: left;
+
+}
+.ftop>ul li:first-of-type~li{
+	height: 48px;
+	width: 48px;
+	border-radius: 50%;
+	border: 1px solid #c0c0c0;
+	margin-right: 10px;
+}
+.ftop>ul li:first-of-type{
+	margin-top: 15px;
+	margin-right: 10px;
+}
+.ftop>ul li:nth-of-type(2){
+	padding: 8px 0 0 12px;
+}
+.ftop>ul li:nth-of-type(3){
+	padding: 8px 0 0 8px;
+}
+.ftop>ul li:nth-of-type(4){
+	padding: 8px 0 0 7px;
+}
+.ftop>ul li:nth-of-type(5){
+	padding: 10px 0 0 7px;
+}
+.fbottom>ul{
+	margin-bottom: 12px;
+}
+.fbottom>ul li{
+	display: inline-block;
+	padding: 0 28px;
+	background: url(../img/fbg.gif) no-repeat right center;
+	font-size: 17px;
+}
+.fbottom>ul li:first-of-type{
+	padding-left: 0px;
+}
+.fbottom>ul li:last-of-type{
+	background: none;
+}
+.fbottom>p:first-of-type{
+	margin: 12px 0 15px 0;
+}
+.fbottom a{
+	color: #c0c0c0;
+}
+.fbottom>p a{
+	font-size: 14px;
+}
